@@ -4,7 +4,7 @@
 // attached to every request. Errors throw an Error with the server's message
 // (plus .status and .fields when present) so pages can show them directly.
 
-const BASE_URL = (import.meta.env.BACKEND_API_URL || 'https://orionbackend-weld.vercel.app').replace(/\/$/, '');
+const BASE_URL = (import.meta.env.BACKEND_API_URL || 'https://orionbackend-weld.vercel.app/api/v1').replace(/\/$/, '');
 
 const TOKEN_KEY = 'fp_token';
 const USER_KEY = 'fp_user';
